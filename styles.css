@@ -1,0 +1,68 @@
+body, * {
+    margin:0;
+    padding:0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+h1 {
+    background-color: teal;
+    color:white;
+    padding:20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 > span {
+    font-size:16px;
+    margin:0 30px;
+}
+
+p {
+    margin:20px 100px;
+}
+
+section {
+    width:700px;
+    margin: 10px auto;
+}
+
+section > p {
+    text-align: left;
+    width:800px;
+    margin:20px auto;
+}
+
+img {
+    height:230px;
+    /* width:200px; */
+    object-fit: cover;
+    margin:20px;
+    border: black 3px solid
+}
+
+p > img {
+    float: left;
+}
+
+section button {
+    padding:10px 15px;
+    border-radius:20px;
+    border:none;
+    background-color: coral;
+    color:white;
+}
+
+p > span {
+    font-weight: bold;
+    margin-right:10px;
+}
+
+h3 {
+    padding:20px;
+    background-color: rgb(32, 57, 57);
+    color:white;
+    margin:0;
+}
